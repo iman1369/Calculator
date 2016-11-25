@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:background="@drawable/mainpage"
+    android:layout_width="235dp"
+    android:layout_height="300dp"
+    android:alpha="0.9"
+    android:layout_marginTop="90dp"
+    android:layout_marginLeft="75dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.microsoftsurface.calculator.MainActivity">
+
+    <TextView
+        android:id="@+id/Display"
+        android:textSize="25dp"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:text="@string/Zero"
+        android:layout_width="183dp"
+        android:layout_height="30dp" />
+
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/Seven"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Seven"
+        />
+
+    <Button
+        android:id="@+id/Eight"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Eight"
+        />
+
+        <Button
+            android:id="@+id/Nine"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Nine"
+            />
+        <Button
+            android:layout_marginTop="-6dp"
+            android:id="@+id/Division"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:drawableBottom="@mipmap/div"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Four"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Four"
+            />
+
+        <Button
+            android:id="@+id/Five"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Five"
+            />
+
+        <Button
+            android:id="@+id/Six"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Six"
+            />
+        <Button
+            android:layout_marginTop="-6dp"
+            android:id="@+id/Multiplied"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:drawableBottom="@mipmap/multiplied"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/one"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/One"
+            />
+
+        <Button
+            android:id="@+id/Two"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Two"
+            />
+
+        <Button
+            android:id="@+id/Three"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Three"
+            />
+        <Button
+            android:layout_marginTop="-6dp"
+            android:id="@+id/Negative"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:drawableBottom="@mipmap/negative"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="201dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/Zero"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Zero"
+            />
+        <Button
+            android:id="@+id/Equal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Equal"
+            />
+        <Button
+            android:layout_marginTop="-6dp"
+            android:id="@+id/Plus"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:drawableBottom="@mipmap/plus"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="-6dp"
+            android:id="@+id/Reset"
+            android:layout_width="201dp"
+            android:layout_height="50dp"
+            android:text="C"
+            />
+    </LinearLayout>
+</LinearLayout>
